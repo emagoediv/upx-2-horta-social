@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid red;
+}
+html {
+    background: #000000;
+}
+body {
+    background: linear-gradient(180deg, rgba(0, 233, 31, 0.26) 0%, rgba(183, 183, 190, 0.24) 100%);
+    display: flex;
+    justify-content: center;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-form {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.content-info {
+    background: #3cb83c;
+    width: 60%;
+    border-radius: 5px;
+}

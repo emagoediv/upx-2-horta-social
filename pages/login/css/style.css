@@ -70,9 +70,10 @@ html, body {
 .input-group button {
     align-self: center;
 }
-
 .input-group label {
     color: #cec0c0;
-
+}
+.input-group a {
+    color: rgb(6, 59, 158);
 }
 

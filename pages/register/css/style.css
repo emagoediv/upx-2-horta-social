@@ -10,16 +10,39 @@ body {
 }
 
 .container {
-    
     background-color: #fff;
     border-radius: 20px;
     border-style: solid;
     padding: 30px;
-    width: 300px;
+    width: 500px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+h2{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
 
 input {
     width: 90%;
@@ -28,7 +51,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
     color: #D9D9D9;
-    
+   
 }
 
 #register-button {

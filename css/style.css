@@ -37,10 +37,10 @@ html, body {
 }
 
 .item-nav {
-    font-size: 1.2rem;
+    font-size: .7rem;
     display: flex;
     align-self: center;
-    width: 12rem;
+    width: 22rem;
 }
 
 .item-nav, .item-nav > a {

@@ -13,10 +13,11 @@ html,body {
     height: 100vh;
     overflow-y: scroll;
     padding: 5px;
+    align-items: center;
 }
 .friend {
     display: flex;
-    width: 14rem;
+    width: 90%;
     height: 5vh;
     padding: 5px;
     justify-content: space-between;

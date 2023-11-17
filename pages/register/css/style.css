@@ -37,21 +37,18 @@ h2{
 
 .input-box{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     width: 50%;
-    padding-bottom: 15px;
 }
 
 
-input {
-    width: 90%;
+input,select {
     padding: 10px;
-    margin: 10px 0px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    color: #D9D9D9;
-   
+    color: #0a0a0a;
+    margin: 5px;
 }
 
 #register-button {

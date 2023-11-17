@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,7 +18,7 @@
     <div class="container-form">
         <div class="content-info">
         </div>
-        <form action="" class="form-group">
+        <form action="" id="formLogin" class="form-group">
             <header class="title">
                 <h1>
                     Hor🌱ando.ai
@@ -24,11 +27,11 @@
             <div class="form-fields">
                 <div class="input-group">
                     <label for="username">Nome de usuário</label>
-                    <input type="text" name="username" id="username" placeholder="digite seu nome de usuário ou email">
+                    <input required minlength="1" type="text" name="user_name" id="username" placeholder="digite seu nome de usuário ou email">
                 </div>
                 <div class="input-group">
                     <label for="password">Senha</label>
-                    <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                    <input required minlength="1" type="password" name="password" id="password" placeholder="Digite sua senha">
                 </div>
                 <div class="input-group">
                     <button type="submit" class="btn-primary">Logar</button>
@@ -40,4 +43,5 @@
         </form>
     </div>
 
+    <script type="module" src="./js/script.js"></script>
 </body>

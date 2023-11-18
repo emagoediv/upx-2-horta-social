@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 var config = {
     loadCitys: selectUf.addEventListener("change", async e => {
         let ufCodigo = e.target.value
-        await requester.get("citys/"+ufCodigo,{}, response => {
+        await requester.get("citys/"+ufCodigo, response => {
             selectCity.innerHTML = ""
             let options = "<option value=''>Selecione uma Cidade</option>"
             console.log("response")
@@ -26,7 +26,7 @@ var config = {
         })
     }),
     loadUfs: async () => {
-        await requester.get("uf",{}, response => {
+        await requester.get("uf", response => {
             selectUf.innerHTML = ""
             let options = "<option value=''>Selecione uma UF</option>"
             console.log("response")
